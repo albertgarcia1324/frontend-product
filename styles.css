@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    height: 360px;
+    width: 478px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3%;
+}
+
+.card-img {
+    display: flex;
+    justify-content: flex-start;
+    height: 360px;
+    width: 100%;
+    border-radius: 3% 0 0 3%;
+}
+
+.card-text {
+    height: 400px;
+    width: 90%;
+    padding: 24px 25px 0 24px;
+}
+
+.card-text h3 {
+    color: hsl(228, 12%, 60%);
+    padding-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+
+.card-text h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", sans-serif;
+    line-height: 1;
+}
+
+.card-text h4 {
+    color: hsl(228, 12%, 60%);
+    padding: 20px 10px 20px 0;
+    line-height: 1.5;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.card-text span {
+    display: flex;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", sans-serif;
+    font-size: 25px;
+    margin-top: 6px;
+}
+
+.card-text span b {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 200;
+    color: hsl(228, 12%, 60%);
+    position: relative;
+    text-indent: 15px;
+    text-decoration: line-through;
+}
+
+.card-text h5 {
+    color: hsl(228, 12%, 48%);
+}
+
+.btn {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    margin-top: 6px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.attribution { 
+    display: flex;
+    justify-content: center;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
